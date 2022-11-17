@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><!-- Google tag (gtag.js) --><script async="" src="./contact_files/js"></script><script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());gtag('config', 'G-E15NB3SCFN');</script>
+	<script language="JavaScript" type="text/javascript">
+		document.addEventListener("contextmenu", function (e){ e. preventDefault(); }, false);
+
+	</script>
+	<SCRIPT language=JavaScript>
+
+<!-- http://www.spacegun.co.uk -->
+
+var message = "Don't try !";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+<script type="text/javascript">
+    function mousehandler(e) {
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if ((eventbutton == 2) || (eventbutton == 3)) return false;
+    }
+    document.oncontextmenu = mischandler;
+    document.onmousedown = mousehandler;
+    document.onmouseup = mousehandler;
+    function disableCtrlKeyCombination(e) {
+        var forbiddenKeys = new Array("a", "s", "c", "x","u");
+        var key;
+        var isCtrl;
+        if (window.event) {
+            key = window.event.keyCode;
+            //IE
+            if (window.event.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        else {
+            key = e.which;
+            //firefox
+            if (e.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        if (isCtrl) {
+            for (i = 0; i < forbiddenKeys.length; i++) {
+                //case-insensitive comparation
+                if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+</script>
+	<title>Contact</title>
+</head>
+<body>
+	<header>
+		<h1>Contact GOMYCODE team</h1>
+	</header>
+
+	<section>
+		<p>Please fill your information and the subject you want to discuss:</p>
+
+		<form action="# method="post">
+		<label for="name">Name: </label><input type="text" id="name_1" name="name"> <br>
+		<label for="sex">Sex: </label> <input type="radio" id="fem" name="sex" value="F">Female <input type="radio" id="mal" name="sex" value="M">Male <br>
+		<label for="track">Track: </label> 
+		<input type="checkbox" id="track_1" name="track_1" value="Intro Web"> <label for="track_1">Intro Web</label>
+		<input type="checkbox" id="track_2" name="track_2" value="Data Science"> <label for="track_1">Data Science</label> 
+		<input type="checkbox" id="track_3" name="track_3" value="Advanced Web"> <label for="track_1">Advanced Web</label> 
+		<input type="checkbox" id="track_4" name="track_4" value="Business Intelligence"><label for="track_1">Business Intelligence</label> 
+		<input type="checkbox" id="track_5" name="track_5" value="UI/UX"><label for="track_1">UI/UX</label> 
+
+		 <br>	
+		<label for="subj">Subject: </label> <input type="text" id="subj_1" name="subj"> <br>
+		<label for="texxt">Inquiry: </label> <textarea name="texxt" rows="4" cols="50" placeholder="Describe your inquiry here..."></textarea>  <br><br><br>
+		<input type="submit" value="Submit">
+		</form>		
+
+	</section>
+
+	<footer><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+		<p>GoMyCode 2022</p>
+	</footer>
+
+
+</body></html>

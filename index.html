@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<!-- Google tag (gtag.js) -->
+		<script>  window.dataLayer = window.dataLayer || [];  function gtag(){dataLayer.push(arguments);}  gtag('js', new Date());gtag('config', 'G-E15NB3SCFN');</script>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>GOMYCODE - Introduction to Web</title>
+	<link rel="shortcut icon" href="./gmc.ico" type="image/x-icon">
+	<link rel="stylesheet" href="./bootstrap.min.css">
+	<script language="JavaScript" src="./jquery-latest.js.télécharger">
+	</script>
+	<script src="./bootstrap.min.js.télécharger"></script>
+
+	<script language="JavaScript" type="text/javascript">
+		$(document).ready(function() {
+			$("#class_title").fadeIn(1000);
+			$("#crn").slideToggle("slow");
+		});</script>
+	<script language="JavaScript" type="text/javascript">
+		document.addEventListener("contextmenu", function (e){ e. preventDefault(); }, false);
+	</script>
+	<SCRIPT language=JavaScript>
+
+<!-- http://www.spacegun.co.uk -->
+
+var message = "Don't try !";
+
+function rtclickcheck(keyp){ if (navigator.appName == "Netscape" && keyp.which == 3){ alert(message); return false; }
+
+if (navigator.appVersion.indexOf("MSIE") != -1 && event.button == 2) { alert(message); return false; } }
+
+document.onmousedown = rtclickcheck;
+
+</SCRIPT>
+<script type="text/javascript">
+    function mousehandler(e) {
+        var myevent = (isNS) ? e : event;
+        var eventbutton = (isNS) ? myevent.which : myevent.button;
+        if ((eventbutton == 2) || (eventbutton == 3)) return false;
+    }
+    document.oncontextmenu = mischandler;
+    document.onmousedown = mousehandler;
+    document.onmouseup = mousehandler;
+    function disableCtrlKeyCombination(e) {
+        var forbiddenKeys = new Array("a", "s", "c", "x","u");
+        var key;
+        var isCtrl;
+        if (window.event) {
+            key = window.event.keyCode;
+            //IE
+            if (window.event.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        else {
+            key = e.which;
+            //firefox
+            if (e.ctrlKey)
+                isCtrl = true;
+            else
+                isCtrl = false;
+        }
+        if (isCtrl) {
+            for (i = 0; i < forbiddenKeys.length; i++) {
+                //case-insensitive comparation
+                if (forbiddenKeys[i].toLowerCase() == String.fromCharCode(key).toLowerCase()) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
+</script>
+</head>
+
+
+<body style="background-color: #A77979">
+<header style="background-color: #472D2D; color: white;">
+<!-- Bootstrap -->
+<div class="container">
+    <div class="row">
+	<div class="col-md-12">
+<h1 id="class_title" style="">GOMYCODE - Introduction to Web</h1>
+	</div>
+    </div>
+    <div class="row">
+	<div class="col-md-4">
+<h3 id="crn" style="">OCTOBRE 2022</h3>
+<h3>Instructor: Ibrahim Bouabdallaoui</h3>
+<a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/070dc042-00d0-456c-8075-45b3f4d768e0/preview">Syllabus d'Octobre 2022 </a><br>
+	</div>
+	<div class="col-md-8">
+<img src="./63.jpg" width="400" height="100">
+	</div>
+	<div class="col-md-12">
+<a href="./contact.html"><font size="5"><b>Contact GoMyCode for inquiries</b></font></a>
+	</div>
+    </div>
+</div>
+</header>
+
+
+
+
+
+<section>
+<!-- Bootstrap -->
+<div class="table-responsive">
+<table id="schedule" class="table-bordered table-hover">
+<tbody><tr><th>Semaine</th><th>Date</th><th>Skills</th><th>Checkpoint</th><th>One to One</th></tr>
+
+<tr><td>1</td><td>22/10/2022<br>23/10/2022</td>
+<td><ul><li>Introduction to Web Overview</li>
+<ul><li>Brain Storming</li>
+<li>Disussions</li>
+<video controls width="250">
+
+    <source src="./How the Internet Works for Developers - Pt 1 - Overview & Frontend.mp4"
+            type="video/mp4">
+
+    Download the
+    <a href="./How the Internet Works for Developers - Pt 1 - Overview & Frontend.mp4">MP4</a>
+    video.
+</video> </ul>
+
+</ul></td>
+<td><ul>-</ul></td>
+<td><ul>-</ul></td>
+</tr>
+
+<tr><td>2</td><td>29/10/2022<br>30/10/2022</td>
+<td><ul><li>Web fundamentals</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/070dc042-00d0-456c-8075-45b3f4d768e0/preview">Web Introduction</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/093008f6-bd8d-4a85-87ab-7c0ab264a0a2/preview">The Internet VS the Web</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f62c2fab-5ece-4f56-b8ee-91f74db3d5f9/preview">Web Architecture</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/0f60171d-2bd5-46bd-aaac-ea9eec48f166/preview">The Protocols</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f55fdbd7-a040-437e-8334-2cf8ded95a38/preview">Servers and API</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/ee491cb1-5d3c-4bf7-bca6-95d2ea708ab0/preview">The Databases</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/25559314-2fea-4f02-84f9-e38d1a7643a8/preview">Web Development</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/ba460ee1-9066-44dd-a5b0-ef7fbb9ccdea/preview">The Website Creation with CMS</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8faee6ec-d661-48c2-a95c-ce2ac15b68a1/preview">Create a website with code</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b87578dd-e6dd-4900-82ec-3a01e48198d2/preview">The Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/64bbf0f6-648d-4db3-9c0b-5cfe2773b4df/preview">Web Fundamentals Project</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e98dedb6-79fa-48a8-ba4c-b56f1e70c791/preview">Web Fundamentals One to One</a></li></ul></td>
+</tr>
+
+<tr><td>3</td><td>05/11/2022<br>06/11/2022</td>
+<td><ul><li>Git & GitHub</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/6fb0fdb5-802b-4e6a-b1a4-44918a01322f/preview">Getting Started With Git</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/46020199-ae1a-4368-a3c6-0f3d334a1902/preview">The Basic Git Commands</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/c70777a5-a759-42b9-8f72-ebe77f8775ef/preview">Configuring Git</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/5b4cd306-83ae-4e4a-9e35-fa89e439fe76/preview">The GitHub Introduction</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e5f9f3d0-d4f6-44eb-b0b1-badb1f207734/preview">Working with Remotes</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/ab3fa2cc-6dae-4f80-b946-7f8188adc5af/preview">The GitHub Workflow</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8d16b9d3-48fa-479d-ad9f-527161003d85/preview">Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/574ffb49-5ebc-45d5-9382-5b48f1fc9dc3/preview">Git & GitHub Project</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4507a787-c64c-427c-84b6-528bc0f404d0/preview">Git & GitHub One to One</a></li></ul></td>
+</tr>
+
+
+<tr><td>4</td><td>12/11/2022<br>13/11/2022</td>
+<td><ul><li>HTML</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/104313b3-23e7-45e8-b02c-708af847a960/preview">What is HTML ?</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e48f79bb-3583-4303-b6e0-27423f236672/preview">The HTML Code structure</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9dafc9c5-f3bd-40e3-b73c-a92b8851e12b/preview">HTML Start Coding</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/24eaef7b-8ca6-4dca-9b58-a7cd7c7c525a/preview">The HTML Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/0628af61-bea1-46ab-8d05-281d0e2dff99/preview">Body Tag</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/d42bddd0-3cc7-48ed-bf92-e1a2729393a5/preview">The Head Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/d4ba3ea7-7990-4f1c-a548-448c66667ec7/preview">Heading Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b9926881-3591-426b-8184-b07fea6b6f51/preview">Paired Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/58ba81bd-fe43-4999-98fa-d2598c83fa18/preview">Paragraph tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/5a19afe4-5ad4-4dcd-9f78-ea4a0664c730/preview">html Attributes</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/d150161a-e1f8-4c1b-a7fa-3d749f1b4d37/preview">Image Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/77c3fe37-f681-4ee7-8c2d-295a1b507844/preview">Links Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/77c3fe37-f681-4ee7-8c2d-295a1b507844/preview">Audio/Video Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/3e147eb9-d447-499c-8bce-41cd2d283e8c/preview">Lists Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/37295006-249a-4ed6-805a-c6a332ab8d22/preview">Div Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9f8f395b-c7ad-45b0-b9ba-e794964487e2/preview">Table Tag</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e9f8e0b8-4e0e-4edb-8a84-049026b1d1b9/preview">Semantic Tags</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/be0fafa6-81fd-490d-91da-c85bd88de9c6/preview">HTML Forms</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/15bf49c2-f8d8-4a57-ab1a-235dc439708c/preview">HTML Forms Elements</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f8f6abf6-47b2-4d88-921a-065ed12c0085/preview">Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/2a75602a-90b9-4d46-bfc6-260639429a75/preview">HTML Project</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4bd46419-1faf-499c-89c7-c85ebda9ac0a/preview">HTML One to One</a></li></ul></td>
+</tr>
+
+
+<tr><td>5</td><td>19/11/2022<br>20/11/2022</td>
+<td><ul><li>CSS</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/3bf3b5cc-dc65-48bd-9f7e-51872f6a2462/preview">What is CSS ?</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/33d8af29-a7d0-4450-bcc2-54aae2eebc14/preview">Link CSS to HTML</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/c91485f9-08b1-48ef-96d4-2c7ae4b64279/preview">CSS Selectors:</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/5b117223-e450-45ba-b6db-e25cae33502f/preview">CSS Selectors : Types</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/1c32694d-3535-4154-9fea-f5b12279cfff/preview">CSS Selectors: Combinators</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b8fe6c98-8589-426a-82f6-cda99870bb7d/preview">CSS Selectors: Pseudo classes</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/13b95b54-26be-4bb4-857e-0329ea025a88/preview">CSS Box Model</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b4cd4bf4-b480-477a-928a-b0f230d64aab/preview">CSS text</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/11f8167c-a831-4e0a-86cc-32b411dd0819/preview">CSS Display</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/1d8581c9-a564-4e55-8b25-927d8f54c117/preview">CSS Display : none</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/6cdf0a0a-41ab-431a-8aa6-34fda95a896f/preview">CSS Display : inline</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/fa5f5a67-f573-4bdd-9b6a-3072ccb35ca1/preview">CSS Display : block</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b773fe78-23ee-4697-a530-fdd73d5e2422/preview">CSS Display: Inline_block</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/a3380275-dc94-4e28-bbc7-78e01bd10ae0/preview">Conclusion</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/26dd9b9b-2748-4488-a722-53dbd8f2eede/preview">CSS Project</a></li>
+</ul></td>
+<td><ul>-</ul></td>
+</tr>
+
+
+<tr><td>6</td><td>26/11/2022<br>27/11/2022</td>
+<td><ul><li>CSS Layout</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7471de8d-2cb0-4f77-9e82-73846a1deb03/preview">CSS: Flexbox</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/1d939a7e-9ef4-4a33-ae68-75d065a8456f/preview">Link CSS display: flex</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/51cf0beb-070e-4d69-a2c4-96002f340849/preview">CSS flexbox : rows and columns</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/167b6b1f-b190-4cbd-99e7-29ad1d23fd73/preview">CSS CSS flexbox : justify-content</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/fcd66823-735f-42e6-95ed-68c1b6e56d13/preview">CSS flexbox : flex-wrap</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9fa83203-525b-4687-968a-ec3b0eab5c1e/preview">CSS CSS flexbox : align-items</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/dd763393-e332-4e5b-940e-2cb117bd5b3c/preview">CSS flexbox : align-content</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/3125afb2-2f6c-402d-8135-cfe7d32cd4a5/preview">CSS Positioning</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/cea82c64-4676-403c-ac1b-3ed7fdb88180/preview">CSS Grid System</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/fb0c2cac-50e4-4b7f-9b27-6362ac737cd3/preview">CSS Grid System: Row and Columns</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7cf47d76-d51a-4105-b566-4d9ecbb107d2/preview">CSS Grid Systems : Display</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4a902ee4-a925-45db-8146-24a61ab9d5d9/preview">CSS Responsive Design</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/72fe570b-a564-4546-9d2c-42cfe105fb0c/preview">CSS Media Query</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7e3a6f35-675b-4c93-9305-590d7d586ec7/preview">CSS Media Query : Breakpoints</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/aa5cfbf6-9e93-4c40-944f-ebd71b20f5b3/preview">CSS : Useful Resources</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7e05572e-0543-48e4-8131-14cdeaa486b6/preview">Bootstrap : Grid Systems</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4c96d2fd-e5c1-456e-9db1-430a317be6da/preview">Bootstrap Classes</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/96e6cb68-d152-4841-bdb6-f1c7013650ba/preview">Conclusion</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/1b5c11a9-f71d-487a-95ca-8e92647ae51e/preview">CSS Layout Project</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/0675fd1a-fd87-44a5-90ef-750e07656987/preview">CSS Layout One to One</a></li></ul></td>
+</tr>
+
+<tr><td>7</td><td>03/12/2022<br>04/12/2022</td>
+<td><ul><li>Javascript</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/d6938f93-9c98-45fa-a674-133f33030860/preview">Welcome to Programming</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e81d2e1c-7d70-453d-a8ed-28c53704d864/preview"> Introduction to Web to Algorithms</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/32767011-bd2e-4ddc-a4cd-9e96c61e1d5b/preview">Introduction to Javascript</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8c655dac-e156-4550-8cc7-52c67ee0cd0d/preview"> Creating Your First Javascript</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/76acf4ed-31c1-4e27-b81f-27dc1009a869/preview">Adding JavaScript to a Web Page</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4758ca7f-ab92-4d11-bc6d-062da46dedbd/preview"> External JavaScript</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/bb91060b-1d8d-4310-82e6-f435c4b459bb/preview">Alert, Prompt & Confirm</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/3a137cdd-563e-4600-b671-af5b99c49fd7/preview">console.log</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/040b335c-0763-4e25-b7a0-ee420e2463cc/preview">Comments in JavaScript</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/717bb3f3-2d18-460e-a186-dd727af82a93/preview">Basic Data Types</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/b1fadc1d-257e-47e0-a4f0-27b6f25f9254/preview">Arithmetic operators</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/62062a76-7dce-4a3e-a243-163881121518/preview">Assignment Operators</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8c7dcb89-1594-4f7d-9bdf-3155f3aff957/preview">Comparison Operators</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/6b099f19-1537-4f03-b920-ad47344cd55b/preview">Logical or Boolean Operators</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7dc5230c-dc9a-4eeb-8394-9f7b6033561d/preview">String Operators</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9bb73bd1-a29f-400a-95f6-f059303c0b24/preview">Program Flow: Functions</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/91dc01f0-559a-46a6-b1e1-ab820dd03c7c/preview">User-Defined Functions</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/a2a62983-50a4-445b-b2d7-ec9aef1ea00e/preview">Function Parameters</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/453f7dba-9a01-41c4-9098-6f090f39eba8/preview">Calling Functions & The return statment</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/40c9373f-9a8e-43a1-9b80-046ab6481a57/preview">Program Flow: Condional Statement </a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f7cfb4c7-3a10-4e9a-8cd0-7d90e63b3068/preview">The if Statement</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/509b6a0b-c212-4a11-ad89-c12cc936a520/preview">The else Statement</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/345b2d3c-a105-4ef9-b8c8-cbd2fb976734/preview">The else if Statement</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/400a2403-fb16-4981-b7d1-6e2ceb5f0ab8/preview">The switch Statemet</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/235225fe-7ef1-41ee-8d65-81c1cb314d3f/preview">Program Flow: Loops</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9cc35990-e957-47e7-8202-d9bdafef4c57/preview">The While Loop</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/148d08df-07a0-42b2-8ef3-e5c874e2f4a8/preview">The Do While Loop</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f1e37ff1-0feb-4e38-81ad-23c095e9cd38/preview">The For Loop</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8d8da031-4f6b-4f2b-b6a3-4d8ce2faae27/preview">The For..in & For...of loops</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/eea9b8a9-6743-4532-88bf-f5dc508a8c16/preview">Break and Continue</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/05272b53-2d35-4b79-b696-5d9b1d0b5efc/preview">Introduction to Arrays</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f6661456-f1a3-4eac-827a-d065ca857b34/preview">Adding and Removing Elements</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/50779e21-b6ea-4f77-98cb-7a66bc252de5/preview">Introduction to Objects</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/629b83c8-1ad2-4249-aa31-9cf962bd54c4/preview">Creating an Object</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/fa8c0733-54cd-414f-996c-cbaa7f846595/preview">Properties & Methods</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/2e792f7e-4360-4aeb-b9a5-7631eb02db76/preview">Accessing Object Properties</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/852604e2-c089-497e-a62b-5d45c8eedaa6/preview">Adding and Modifying Objects Properties</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/fc2942dc-3cc5-4ee1-b03e-f81d79f093b4/preview">Removing Object Properties</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/e79b51fa-3a5e-4a90-82c7-07bdade2878c/preview">Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/6de9ede6-f92d-41c7-b416-7f4147de71c1/preview">Javascript Project</a></li>
+</ul></td>
+<td><ul>-</ul></td>
+</tr>
+
+<tr><td>8</td><td>10/12/2022<br>11/12/2022</td>
+<td><ul><li>DOM</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/49f902ac-39c5-4354-a30d-f7b3002c89cc/preview">What is DOM?</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/f6845c60-e238-4be0-b752-f90830335ec0/preview">DOM Selectors</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/31783e4b-2090-4e0e-8acc-0452ee4b6c5a/preview">DOM Attribute</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/88301863-0809-45e7-9e98-653e8c520c17/preview">DOM Manipulation</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/d21d3262-1987-49ea-9d1c-596ace407dd5/preview">DOM events</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/8add3d4b-1c69-44d2-abb7-0b51e8998eac/preview">The Form validation</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/4b9899bd-321b-462e-b3cc-7b7aeeed2a9d/preview">Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/5e4390f8-a5ad-4733-b662-789ec69dce77/preview">DOM Project</a></li>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/ed754794-7e9c-49d3-a2dc-2aa09967dd1d/preview">DOM One to One</a></li></ul></td>
+</tr>
+<tr><td>9</td><td>17/12/2022<br>18/12/2022</td>
+<td><ul><li>Lab Phase: Build a Project!</li>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/9d7402df-961d-495b-b522-fe8239006918/preview">Lab Phase Objectives</a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/38444d92-d591-429d-8cc6-9f7afdc62925/preview">Project Specification</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/dc7825e3-073f-43dd-984d-3520b14d26e2/preview">Build the structure and style it </a></li>
+<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7d804c26-d4eb-4691-9ea2-e1ca73383b4c/preview">Make it interactive.</a></li></ul>
+<ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/7ec5e30f-23ae-4a6d-8904-d9f56858c861/preview">Conclusion</a></li></ul>
+</ul></td>
+<td><ul><li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/2b2db9f9-677c-4adf-94ed-9cfe0d33e56d/preview">Build the structure and style it Checkpoint</a></li>
+	<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/835bdba2-54fe-49c4-aa07-b44c035da7fa/preview">Make it interactive Checkpoint</a></li>
+	<li><a href="https://learn.gomycode.co/tracks/f41c7028-8168-4360-bd6d-511e46647900/nodes/ef36dae6-ec81-4476-a2f6-524ff6e80621/preview">Project Specification Checkpoint</a></li>
+</ul></td>
+<td><ul><li>-</ul></td>
+
+
+</tbody></table>
+</div>
+</section>
+
+<footer>
+<img src="./gmc.png" width="70px" height="70px">Contact me: <a href="mailto:bd.ibrahim@hotmail.com">bd.ibrahim@hotmail.com</a><p></p>
+</footer>
+
+
+</body></html>
